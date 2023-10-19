@@ -8,7 +8,7 @@ https://maven.pkg.github.com/eaopen/mvn-repo
 ## 配置maven参考
 
 项目pom.xml 添加 repository id=github-mvn-openea
-‘’‘
+```
     <repositories>
         <repository>
             <id>github-mvn-openea</id>
@@ -23,10 +23,10 @@ https://maven.pkg.github.com/eaopen/mvn-repo
             </snapshots>
         </repository>
     </repositories>
-’‘’
+```
 
 maven本地配置 conf/settings.xml
-'''
+```
   <servers>
      <server>
         <id>github-mvn-openea</id>
@@ -34,7 +34,7 @@ maven本地配置 conf/settings.xml
         <password>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</password>
       </server>
   </servers>
-'''
+```
 
 
 # 参考
