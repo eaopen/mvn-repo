@@ -2,6 +2,8 @@
 
 已提交到maven center中。
 
+group = io.github.eaopen
+
 如使用github maven需要配置github public token。  
 https://maven.pkg.github.com/eaopen/mvn-repo
 
